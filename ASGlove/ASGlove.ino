@@ -1,4 +1,4 @@
-
+//need to fix distances
 
 //Pins
 int motorPin = 3;
@@ -38,6 +38,7 @@ void loop() {
     delay(250);
     Serial.println(distance);
   }
+  /*
   
   else if (distance < 90) {
     analogWrite(motorPin, 125);
@@ -46,22 +47,7 @@ void loop() {
     delay(500);
     Serial.println(distance);
   }
-  
-  else if (distance < 110) {
-    analogWrite(motorPin, 100);
-    delay(750);
-    analogWrite(motorPin, 0);
-    delay(750);
-    Serial.println(distance);
-  }
-  
-  else if (distance < 130) {
-    analogWrite(motorPin, 75);
-    delay(1000);
-    analogWrite(motorPin, 0);
-    delay(1000);
-    Serial.println(distance);
-  }
+  */
   
   else {
     analogWrite(motorPin, 0);
