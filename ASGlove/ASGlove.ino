@@ -1,4 +1,3 @@
-//need to fix distances
 
 //Pins
 int motorPin = 3;
