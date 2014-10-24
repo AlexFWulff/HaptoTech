@@ -14,7 +14,7 @@ void setup() {
 void loop() {
   int distance = checkDistance();
   
-  if (distance < 30) {
+  if (distance < 10) {
     analogWrite(motorPin, 200);
     delay(50);
     analogWrite(motorPin, 0);
@@ -22,7 +22,7 @@ void loop() {
     Serial.println(distance);
   }
   
-  else if (distance < 50) {
+  else if (distance < 30) {
     analogWrite(motorPin, 175);
     delay(100);
     analogWrite(motorPin, 0);
@@ -30,7 +30,7 @@ void loop() {
     Serial.println(distance);
   }
   
-  else if (distance < 70) {
+  else if (distance < 50) {
     analogWrite(motorPin, 150);
     delay(250);
     analogWrite(motorPin, 0);
