@@ -1,4 +1,3 @@
-
 //Pins
 int motorPin = 3;
 int trigPin = 5;
@@ -16,26 +15,18 @@ void loop() {
   
   if (distance < 10) {
     analogWrite(motorPin, 255);
-    delay(50);
-    analogWrite(motorPin, 0);
-    delay(50);
     Serial.println(distance);
   }
   
   else if (distance < 30) {
-    analogWrite(motorPin, 255);
-    delay(100);
     analogWrite(motorPin, 0);
-    delay(100);
+    analogWrite(motorPin, 175);
     Serial.println(distance);
   }
   
   else if (distance < 50) {
-    analogWrite(motorPin, 255);
-    delay(250);
     analogWrite(motorPin, 0);
-    delay(250);
-    Serial.println(distance);
+    analogWrite(motorPin, 100);
   }
   /*
   
