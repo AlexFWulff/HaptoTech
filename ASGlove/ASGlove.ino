@@ -1,8 +1,8 @@
 
 //Pins
-int motorPin = 3;
-int trigPin = 5;
-int echoPin = 4;
+int motorPin = 0;
+int trigPin = 1;
+int echoPin = 2;
 
 void setup() {
   pinMode(trigPin, OUTPUT);
