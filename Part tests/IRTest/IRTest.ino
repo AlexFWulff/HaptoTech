@@ -1,5 +1,5 @@
 // Sets up IR Sensor
-int        pinIR             =   A5  ;
+int        pinIR             =   A0  ;
 
 void setup()
 {
