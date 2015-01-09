@@ -1,14 +1,14 @@
 
 #include <SharpIR.h>
 
-SharpIR sharp(1, 25, 93, 20150);
+SharpIR sharp(2, 25, 93, 20150);
 
 //Globals
 int distance = 0;
 
 //Pins
 int motorPin = 0;
-int IRPin = 1;
+int IRPin = 2;
 
 void setup() {
   pinMode(IRPin, INPUT);
@@ -18,18 +18,18 @@ void setup() {
 void loop() {
  distance = sharp.distance();
   
-  if (distance < 30) {
+  if (distance < 15) {
     analogWrite(motorPin, 255);
     delay(500);
     analogWrite(motorPin, 0);
     delay(500);
   }
   
-  else if (distance < 50) {
+  else if (distance < 25) {
     analogWrite(motorPin, 150);
   }
   
-  else if (distance < 80) {
+  else if (distance < 35) {
     analogWrite(motorPin, 100);
   }
   

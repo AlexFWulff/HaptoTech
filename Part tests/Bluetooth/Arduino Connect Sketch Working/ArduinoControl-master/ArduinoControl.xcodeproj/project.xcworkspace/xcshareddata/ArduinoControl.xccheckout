@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5DA434D4-A727-438C-8B20-9BEF1335CD1D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ArduinoControl</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>32482A71C35FEC0C8001AF0F21D063749FC5EF87</key>
+		<string>https://github.com/ConiferApps/ArduSight</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Part tests/Bluetooth/Arduino Connect Sketch Working/ArduinoControl-master/ArduinoControl.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>32482A71C35FEC0C8001AF0F21D063749FC5EF87</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ConiferApps/ArduSight</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>32482A71C35FEC0C8001AF0F21D063749FC5EF87</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>32482A71C35FEC0C8001AF0F21D063749FC5EF87</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ArduSight</string>
+		</dict>
+	</array>
+</dict>
+</plist>
