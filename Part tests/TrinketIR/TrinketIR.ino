@@ -17,8 +17,7 @@ void setup() {
 void loop() {
   int value = analogRead(1);
   int inter = map(value, 127, 860, 860, 127);
-  int final = map(inter, 127, 860, 10, 150);
-  if (final< 50) {
+  if (final< 800) {
     digitalWrite(0, HIGH);
   }
   
