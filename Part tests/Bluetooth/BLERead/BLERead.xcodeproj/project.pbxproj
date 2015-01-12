@@ -19,6 +19,7 @@
 		FA7905BB1A59D917000E740F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7905BA1A59D917000E740F /* Foundation.framework */; };
 		FA7905BD1A59D91E000E740F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7905BC1A59D91E000E740F /* CoreGraphics.framework */; };
 		FA7906F01A59F6DC000E740F /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7906EE1A59F6DC000E740F /* BLE.m */; };
+		FA7D50871A63345D003DE122 /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D50861A63345D003DE122 /* wifi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		FA7906ED1A59F6DC000E740F /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
 		FA7906EE1A59F6DC000E740F /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
 		FA7906EF1A59F6DC000E740F /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		FA7D50861A63345D003DE122 /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		FA7905901A59D8C6000E740F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA7D50861A63345D003DE122 /* wifi.png */,
 				FA7905911A59D8C6000E740F /* Info.plist */,
 				FA7905921A59D8C6000E740F /* main.m */,
 			);
@@ -199,6 +202,7 @@
 				TargetAttributes = {
 					FA79058C1A59D8C6000E740F = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = C3MYKPZK6A;
 					};
 					FA7905A51A59D8C6000E740F = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -232,6 +236,7 @@
 			files = (
 				FA79059C1A59D8C6000E740F /* Main.storyboard in Resources */,
 				FA7905A11A59D8C6000E740F /* LaunchScreen.xib in Resources */,
+				FA7D50871A63345D003DE122 /* wifi.png in Resources */,
 				FA79059E1A59D8C6000E740F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BLERead/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BLERead/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +451,7 @@
 				FA7905B21A59D8C6000E740F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA7905B31A59D8C6000E740F /* Build configuration list for PBXNativeTarget "BLEReadTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +460,7 @@
 				FA7905B51A59D8C6000E740F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
