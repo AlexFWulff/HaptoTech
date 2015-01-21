@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7905931A59D8C6000E740F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7905921A59D8C6000E740F /* main.m */; };
+		FA7905961A59D8C6000E740F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7905951A59D8C6000E740F /* AppDelegate.m */; };
+		FA7905991A59D8C6000E740F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7905981A59D8C6000E740F /* ViewController.m */; };
+		FA79059C1A59D8C6000E740F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA79059A1A59D8C6000E740F /* Main.storyboard */; };
+		FA79059E1A59D8C6000E740F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA79059D1A59D8C6000E740F /* Images.xcassets */; };
+		FA7905A11A59D8C6000E740F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA79059F1A59D8C6000E740F /* LaunchScreen.xib */; };
+		FA7905AD1A59D8C6000E740F /* BLEReadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7905AC1A59D8C6000E740F /* BLEReadTests.m */; };
+		FA7905B71A59D901000E740F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7905B61A59D901000E740F /* CoreBluetooth.framework */; };
+		FA7905B91A59D90F000E740F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7905B81A59D90F000E740F /* UIKit.framework */; };
+		FA7905BB1A59D917000E740F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7905BA1A59D917000E740F /* Foundation.framework */; };
+		FA7905BD1A59D91E000E740F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7905BC1A59D91E000E740F /* CoreGraphics.framework */; };
+		FA7906F01A59F6DC000E740F /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7906EE1A59F6DC000E740F /* BLE.m */; };
+		FA7D50871A63345D003DE122 /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7D50861A63345D003DE122 /* wifi.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7905A71A59D8C6000E740F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7905851A59D8C6000E740F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA79058C1A59D8C6000E740F;
+			remoteInfo = BLERead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA79058D1A59D8C6000E740F /* HaptoTech Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HaptoTech Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7905911A59D8C6000E740F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7905921A59D8C6000E740F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA7905941A59D8C6000E740F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA7905951A59D8C6000E740F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA7905971A59D8C6000E740F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA7905981A59D8C6000E740F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA79059B1A59D8C6000E740F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA79059D1A59D8C6000E740F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA7905A01A59D8C6000E740F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA7905A61A59D8C6000E740F /* HaptoTech BlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HaptoTech BlueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7905AB1A59D8C6000E740F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7905AC1A59D8C6000E740F /* BLEReadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLEReadTests.m; sourceTree = "<group>"; };
+		FA7905B61A59D901000E740F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FA7905B81A59D90F000E740F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA7905BA1A59D917000E740F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA7905BC1A59D91E000E740F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA7906ED1A59F6DC000E740F /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		FA7906EE1A59F6DC000E740F /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		FA7906EF1A59F6DC000E740F /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		FA7D50861A63345D003DE122 /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA79058A1A59D8C6000E740F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7905BD1A59D91E000E740F /* CoreGraphics.framework in Frameworks */,
+				FA7905BB1A59D917000E740F /* Foundation.framework in Frameworks */,
+				FA7905B91A59D90F000E740F /* UIKit.framework in Frameworks */,
+				FA7905B71A59D901000E740F /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7905A31A59D8C6000E740F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7905841A59D8C6000E740F = {
+			isa = PBXGroup;
+			children = (
+				FA7906EC1A59F6DC000E740F /* BLE */,
+				FA7905BC1A59D91E000E740F /* CoreGraphics.framework */,
+				FA7905BA1A59D917000E740F /* Foundation.framework */,
+				FA7905B81A59D90F000E740F /* UIKit.framework */,
+				FA7905B61A59D901000E740F /* CoreBluetooth.framework */,
+				FA79058F1A59D8C6000E740F /* BLERead */,
+				FA7905A91A59D8C6000E740F /* BLEReadTests */,
+				FA79058E1A59D8C6000E740F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA79058E1A59D8C6000E740F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA79058D1A59D8C6000E740F /* HaptoTech Blue.app */,
+				FA7905A61A59D8C6000E740F /* HaptoTech BlueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA79058F1A59D8C6000E740F /* BLERead */ = {
+			isa = PBXGroup;
+			children = (
+				FA7905941A59D8C6000E740F /* AppDelegate.h */,
+				FA7905951A59D8C6000E740F /* AppDelegate.m */,
+				FA7905971A59D8C6000E740F /* ViewController.h */,
+				FA7905981A59D8C6000E740F /* ViewController.m */,
+				FA79059A1A59D8C6000E740F /* Main.storyboard */,
+				FA79059D1A59D8C6000E740F /* Images.xcassets */,
+				FA79059F1A59D8C6000E740F /* LaunchScreen.xib */,
+				FA7905901A59D8C6000E740F /* Supporting Files */,
+			);
+			path = BLERead;
+			sourceTree = "<group>";
+		};
+		FA7905901A59D8C6000E740F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D50861A63345D003DE122 /* wifi.png */,
+				FA7905911A59D8C6000E740F /* Info.plist */,
+				FA7905921A59D8C6000E740F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA7905A91A59D8C6000E740F /* BLEReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7905AC1A59D8C6000E740F /* BLEReadTests.m */,
+				FA7905AA1A59D8C6000E740F /* Supporting Files */,
+			);
+			path = BLEReadTests;
+			sourceTree = "<group>";
+		};
+		FA7905AA1A59D8C6000E740F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA7905AB1A59D8C6000E740F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA7906EC1A59F6DC000E740F /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				FA7906ED1A59F6DC000E740F /* BLE.h */,
+				FA7906EE1A59F6DC000E740F /* BLE.m */,
+				FA7906EF1A59F6DC000E740F /* BLEDefines.h */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA79058C1A59D8C6000E740F /* HaptoTech Blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7905B01A59D8C6000E740F /* Build configuration list for PBXNativeTarget "HaptoTech Blue" */;
+			buildPhases = (
+				FA7905891A59D8C6000E740F /* Sources */,
+				FA79058A1A59D8C6000E740F /* Frameworks */,
+				FA79058B1A59D8C6000E740F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HaptoTech Blue";
+			productName = BLERead;
+			productReference = FA79058D1A59D8C6000E740F /* HaptoTech Blue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7905A51A59D8C6000E740F /* HaptoTech BlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7905B31A59D8C6000E740F /* Build configuration list for PBXNativeTarget "HaptoTech BlueTests" */;
+			buildPhases = (
+				FA7905A21A59D8C6000E740F /* Sources */,
+				FA7905A31A59D8C6000E740F /* Frameworks */,
+				FA7905A41A59D8C6000E740F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7905A81A59D8C6000E740F /* PBXTargetDependency */,
+			);
+			name = "HaptoTech BlueTests";
+			productName = BLEReadTests;
+			productReference = FA7905A61A59D8C6000E740F /* HaptoTech BlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7905851A59D8C6000E740F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Conifer Apps";
+				TargetAttributes = {
+					FA79058C1A59D8C6000E740F = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = C3MYKPZK6A;
+					};
+					FA7905A51A59D8C6000E740F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FA79058C1A59D8C6000E740F;
+					};
+				};
+			};
+			buildConfigurationList = FA7905881A59D8C6000E740F /* Build configuration list for PBXProject "HaptoTech Blue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7905841A59D8C6000E740F;
+			productRefGroup = FA79058E1A59D8C6000E740F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA79058C1A59D8C6000E740F /* HaptoTech Blue */,
+				FA7905A51A59D8C6000E740F /* HaptoTech BlueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA79058B1A59D8C6000E740F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA79059C1A59D8C6000E740F /* Main.storyboard in Resources */,
+				FA7905A11A59D8C6000E740F /* LaunchScreen.xib in Resources */,
+				FA7D50871A63345D003DE122 /* wifi.png in Resources */,
+				FA79059E1A59D8C6000E740F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7905A41A59D8C6000E740F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7905891A59D8C6000E740F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7905991A59D8C6000E740F /* ViewController.m in Sources */,
+				FA7905961A59D8C6000E740F /* AppDelegate.m in Sources */,
+				FA7906F01A59F6DC000E740F /* BLE.m in Sources */,
+				FA7905931A59D8C6000E740F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7905A21A59D8C6000E740F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7905AD1A59D8C6000E740F /* BLEReadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7905A81A59D8C6000E740F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA79058C1A59D8C6000E740F /* HaptoTech Blue */;
+			targetProxy = FA7905A71A59D8C6000E740F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA79059A1A59D8C6000E740F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA79059B1A59D8C6000E740F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA79059F1A59D8C6000E740F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7905A01A59D8C6000E740F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7905AE1A59D8C6000E740F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA7905AF1A59D8C6000E740F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7905B11A59D8C6000E740F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BLERead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "HaptoTech Blue";
+			};
+			name = Debug;
+		};
+		FA7905B21A59D8C6000E740F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = BLERead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "HaptoTech Blue";
+			};
+			name = Release;
+		};
+		FA7905B41A59D8C6000E740F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLEReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "HaptoTech BlueTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLERead.app/BLERead";
+			};
+			name = Debug;
+		};
+		FA7905B51A59D8C6000E740F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BLEReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "HaptoTech BlueTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLERead.app/BLERead";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7905881A59D8C6000E740F /* Build configuration list for PBXProject "HaptoTech Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7905AE1A59D8C6000E740F /* Debug */,
+				FA7905AF1A59D8C6000E740F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7905B01A59D8C6000E740F /* Build configuration list for PBXNativeTarget "HaptoTech Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7905B11A59D8C6000E740F /* Debug */,
+				FA7905B21A59D8C6000E740F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7905B31A59D8C6000E740F /* Build configuration list for PBXNativeTarget "HaptoTech BlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7905B41A59D8C6000E740F /* Debug */,
+				FA7905B51A59D8C6000E740F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7905851A59D8C6000E740F /* Project object */;
+}
