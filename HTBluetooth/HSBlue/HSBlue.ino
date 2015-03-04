@@ -7,7 +7,7 @@ int sensor = A5;
 void setup() {
   pinMode(sensor, INPUT);
   // Set your BLE Shield name here, max. length 10
-  ble_set_name("ArduSight");
+  ble_set_name("HTBlue");
   
   // Init. and start BLE library.
   ble_begin();
