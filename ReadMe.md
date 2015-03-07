@@ -5,7 +5,7 @@ HaptoTech
   
 Project Info
 ---------
-Visit the HaptoTech [Home Page](http://www.github.com) for more project information.
+Visit the HaptoTech [Home Page](http://www.haptotech.com) for more project information.
 
 Other Info
 --------
