@@ -9,4 +9,4 @@ Visit the HaptoTech [Home Page](http://www.haptotech.com) for more project infor
 
 Other Info
 --------
-The currently working pin model is HTPin4. All other code is for refrence purposes only.
+The currently working pin models are HTPin4 and HTPin5. The process of building HTPin4 is detailed on the HaptoTech home page. All other code is for refrence purposes only.
