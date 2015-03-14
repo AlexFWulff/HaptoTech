@@ -15,12 +15,15 @@ void setup() {
 }
 
 void loop() {
- int sensorVal = digitalRead(vibPin);
- 
- if (sensorVal == LOW) {
- for (int i = 0; i < 100; i++) {
+//sensorVal = digitalRead(vibPin);
+// 
+//if (sensorVal == LOW) {
+// for (int i = 0; i < 100; i++) {
    
  distance = getDistanceCM();
+ 
+// sensorVal = digitalRead(vibPin);
+ 
   if (distance < 30) {
     digitalWrite(motorPin, HIGH);
     delay(100);
@@ -42,8 +45,10 @@ void loop() {
   else {
     digitalWrite(motorPin, LOW);
   }
-}
-}
+  
+//  sensorVal = digitalRead(vibPin);
+//}
+//}
 }
 
 int getDistanceCM() {
