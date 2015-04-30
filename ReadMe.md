@@ -9,4 +9,4 @@ Visit the HaptoTech [Home Page](http://www.haptotech.com) for more project infor
 
 Other Info
 --------
-The currently working pin models are HTPin4 and HTPin5. The process of building HTPin4 is detailed on the HaptoTech home page. All other code is for refrence purposes only. © 2015 Alex Wulff and HaptoTech.com. All designs and code are free for non-commercial purposes, and copying requires attribution to this website. For commercial purposes please contact me. (Contact information on HaptoTech Home Page)
+The currently working pin models are HTPin4, HTPin5 and HTPin6. The process of building HTPin4 is detailed on the HaptoTech home page. All other code is for refrence purposes only. © 2015 Alex Wulff and HaptoTech.com. All designs and code are free for non-commercial purposes, and copying requires attribution to this website. For commercial purposes please contact me. (Contact information on HaptoTech Home Page)
