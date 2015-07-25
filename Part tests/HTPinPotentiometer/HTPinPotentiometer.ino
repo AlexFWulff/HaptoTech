@@ -5,7 +5,7 @@ int sonarVal = 0;
 float finalPot = 0;
 
 //Pins
-int potPin = 4;
+int potPin = 2;
 int ledPin = 1;
 
 void setup() {
@@ -16,7 +16,7 @@ void setup() {
 void loop() {
   
   for (int i = 0; i < 10; i++) {
-    float pot = analogRead(2);
+    float pot = analogRead(1);
     float value = map(pot, 0, 1023, 0, 5);
     finalPot = finalPot + value;
   }
