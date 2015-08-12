@@ -1,7 +1,6 @@
 #include <Arduino.h>
-#include <WProgram.h>
 
-int motorPin = 4;
+int motorPin = 1;
 int IRPin = 1;//Remeber - this is not the actual pin just the first analog pin
 int distance = 0;
 
@@ -14,25 +13,21 @@ void setup() {
 void loop() {
  distance = getDistance();
   
-  if (distance < 6) {
+  if (distance < 10) {
     digitalWrite(motorPin, HIGH);
-    digitalWrite(3, HIGH);
     delay(100);
     digitalWrite(motorPin, LOW);
-    digitalWrite(3, LOW);
     delay(50);
   }
   
-  else if (distance < 12) {
+  else if (distance < 20) {
     digitalWrite(motorPin, HIGH);
-    digitalWrite(3, HIGH);
     delay(300);
     digitalWrite(motorPin, LOW);
-    digitalWrite(3, LOW);
     delay(100);
   }
   
-  else if (distance < 16 ) {
+  else if (distance < 27 ) {
     digitalWrite(motorPin, HIGH);
   }
   
