@@ -1,3 +1,5 @@
+#include <EEPROM.h>
+
 #include <SPI.h>
 #include <boards.h>
 #include <RBL_nRF8001.h>
@@ -7,7 +9,7 @@ int sensor = A5;
 void setup() {
   pinMode(sensor, INPUT);
   // Set your BLE Shield name here, max. length 10
-  ble_set_name("HTBlue");
+  ble_set_name("HTBlue2");
   
   // Init. and start BLE library.
   ble_begin();
