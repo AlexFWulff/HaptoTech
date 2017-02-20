@@ -50,11 +50,9 @@ void loop() {
 }
 
 int getDistanceCM() {
-  int inchesRead;
   int cm;
-  sonarVal = analogRead(1);
+  sonarVal = analogRead(sonarPin);
   delay(50);
-  inchesRead = (sonarVal * 0.497);
-  cm = inchesRead * 2.54;
+  cm = (sonarVal * 0.497 * 2.54);
   return cm;
 }

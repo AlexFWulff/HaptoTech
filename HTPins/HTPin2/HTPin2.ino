@@ -48,13 +48,3 @@ void loop() {
   */
   
 }
-
-double getDistance()
-{
-  double sensorValue       =   0.0 ;
-  int distanceFromIR    =   0.0 ;
-  sensorValue = analogRead( IRPin ); 
-  sensorValue *= .0049;
-  distanceFromIR = 3*pow ( ( sensorValue - 3 ) , 4 ) + 15;
-  return distanceFromIR;
-}

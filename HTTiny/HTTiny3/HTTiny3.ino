@@ -1,5 +1,3 @@
-#include <Arduino.h>
-
 const int motorPin = 1;
 const int IRPin = 1;//Remeber - this is not the actual pin just the first analog pin
 const int enablePin = 3;
@@ -18,34 +16,19 @@ void setup() {
 void loop() {
  distance = getDistance();
   
-  if (distance < 10) {
+  if (distance < 27 ) {
     digitalWrite(motorPin, HIGH);
     digitalWrite(ledPin, HIGH);
-    delay(100);
+    delay(distance*5);
     digitalWrite(motorPin, LOW);
     digitalWrite(ledPin, LOW);
-    delay(50);
-  }
-  
-  else if (distance < 20) {
-    digitalWrite(motorPin, HIGH);
-    digitalWrite(ledPin, HIGH);
-    delay(300);
-    digitalWrite(motorPin, LOW);
-    digitalWrite(ledPin, LOW);
-    delay(100);
-  }
-  
-  else if (distance < 27 ) {
-    digitalWrite(motorPin, HIGH);
-    digitalWrite(ledPin, HIGH);
+    delay(distance*5);
   }
   
   else {
     digitalWrite(motorPin, LOW);
     digitalWrite(ledPin, LOW);
   }
-  
 }
 
 int getDistance() {

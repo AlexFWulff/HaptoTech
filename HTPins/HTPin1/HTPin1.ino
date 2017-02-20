@@ -55,12 +55,10 @@ int getDistanceInches() {
 }
 
 int getDistanceCM() {
-  int inchesRead;
   int cm;
-  sensorValue = analogRead(sonarPin);
+  sonarVal = analogRead(sonarPin);
   delay(50);
-  inchesRead = (sensorValue * 0.497);
-  cm = inchesRead * 2.54;
+  cm = (sonarVal * 0.497 * 2.54);
   return cm;
 }
 

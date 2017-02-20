@@ -35,6 +35,6 @@ void loop() {
 
 int getDistance() {
  int value = analogRead(1);
-  int inter = map(value, 127, 860, 860, 127);
-  return inter;
+ int inter = map(value, 127, 860, 860, 127);
+ return inter;
 }

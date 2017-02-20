@@ -15,15 +15,9 @@ void setup() {
 }
 
 void loop() {
-//sensorVal = digitalRead(vibPin);
-// 
-//if (sensorVal == LOW) {
-// for (int i = 0; i < 100; i++) {
    
  distance = getDistanceCM();
- 
-// sensorVal = digitalRead(vibPin);
- 
+  
   if (distance < 30) {
     digitalWrite(motorPin, HIGH);
     delay(100);
@@ -52,11 +46,9 @@ void loop() {
 }
 
 int getDistanceCM() {
-  int inchesRead;
   int cm;
   sonarVal = analogRead(1);
   delay(50);
-  inchesRead = (sonarVal * 0.497);
-  cm = inchesRead * 2.54;
+  cm = (sonarVal * 0.497 * 2.54);
   return cm;
 }
