@@ -9,4 +9,4 @@ Visit the HaptoTech [Home Page](http://www.coniferapps.com/haptotech) for more p
 
 Other Info
 --------
-© 2016 Alex Wulff and ConiferApps.com. All designs and code are free for non-commercial purposes, and copying requires attribution to this website. For commercial purposes please contact me. (Contact information on HaptoTech Home Page)
+© 2017 Alex Wulff and ConiferApps.com. All designs and code are free for non-commercial purposes, and copying requires attribution to this website. For commercial purposes please contact me. (Contact information on HaptoTech Home Page). For more of my projects please visit [AlexWulff.com](http://www.AlexWulff.com)
